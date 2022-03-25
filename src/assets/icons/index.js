@@ -2,7 +2,7 @@ import Birds from './Birds';
 import FarmIcon from './FarmIcon';
 import LeaveIcon from './LeaveIcon';
 import OceanIcon from './OceanIcon';
-import RowiningIcon from './RowiningIcon';
+import RowingIcon from './RowingIcon';
 import TrainIcon from './TrainIcon';
 import CafeIcon from './CafeIcon';
 import Fire from './Fire';
@@ -32,7 +32,7 @@ const icons = {
   highway: RoadIcon,
   night: NightIcon,
   ocean: OceanIcon,
-  rowining: RowiningIcon,
+  rowing: RowingIcon,
   train: TrainIcon,
   cafe: CafeIcon,
   campfire: Fire,

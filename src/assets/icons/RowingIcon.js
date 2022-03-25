@@ -1,4 +1,4 @@
-const RowiningIcon = (props) => {
+const RowingIcon = (props) => {
   return (
     <svg
       stroke="currentColor"
@@ -16,4 +16,4 @@ const RowiningIcon = (props) => {
   );
 };
 
-export default RowiningIcon;
+export default RowingIcon;
