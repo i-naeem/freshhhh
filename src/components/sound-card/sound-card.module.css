@@ -5,9 +5,9 @@
 
 .card {
   padding: 1rem;
+  width: 100%;
   display: grid;
-  max-width: 150px;
-  min-height: 150px;
+  height: 100%;
   position: relative;
   place-items: center;
   border-radius: 1rem;
@@ -28,6 +28,7 @@
 
 .title {
   position: absolute;
+  text-transform: capitalize;
   top: 5px;
   left: 10px;
   font-size: 16px;
@@ -41,5 +42,5 @@
 }
 
 .icon {
-  width: 80px;
+  width: 80%;
 }

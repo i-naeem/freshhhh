@@ -15,5 +15,13 @@ code {
 }
 
 .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-wrapper {
   padding: 1rem;
+  margin: 1rem;
+  max-width: 150px;
 }
