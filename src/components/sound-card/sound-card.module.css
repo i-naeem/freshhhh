@@ -1,0 +1,45 @@
+.card * {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  padding: 1rem;
+  display: grid;
+  max-width: 150px;
+  min-height: 150px;
+  position: relative;
+  place-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: transform 150ms ease-in-out, box-shadow 150ms ease-in-out,
+    background-color 150ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 6px 4px 0px 0px #a9d3f7;
+}
+
+.card.active {
+  background-color: antiquewhite;
+}
+
+.title {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 16px;
+  color: gray;
+}
+
+.iconWrapper {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.icon {
+  width: 80px;
+}

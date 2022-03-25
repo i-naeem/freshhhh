@@ -1,9 +1,12 @@
 import AppLayout from './components/appLayout/AppLayout';
+import SoundCard from './components/sound-card/SoundCard';
 
 const App = (props) => {
   return (
     <AppLayout>
-      <h1>Main Content</h1>
+      <section className="main-content">
+        <SoundCard />
+      </section>
     </AppLayout>
   );
 };
