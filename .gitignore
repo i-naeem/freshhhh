@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 # Ignore sounds file for the moment, as they would take alot of time to upload on github.
-src/sounds
+public/sounds
