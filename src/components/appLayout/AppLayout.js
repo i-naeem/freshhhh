@@ -1,3 +1,4 @@
+import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import styles from './styles.module.css';
 
@@ -6,7 +7,7 @@ const AppLayout = (props) => {
     <div className={styles.container}>
       <Header />
       <main>{props.children}</main>
-      <footer>Footer</footer>
+      <Footer />
     </div>
   );
 };
