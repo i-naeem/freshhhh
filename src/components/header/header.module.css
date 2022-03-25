@@ -6,6 +6,7 @@
 
 .brand {
   text-decoration: none;
+  display: inline-block;
   color: rgba(25, 25, 26, 0.9);
   transition: color 150ms ease-in-out;
 }
