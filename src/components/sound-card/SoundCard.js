@@ -21,7 +21,7 @@ const SoundCard = (props) => {
       </div>
 
       <audio loop ref={ref}>
-        <source src={url} />
+        <source src={process.env.PUBLIC_URL + '/' + url} />
       </audio>
 
       {playing ? (
