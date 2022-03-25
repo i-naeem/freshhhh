@@ -1,6 +1,17 @@
 {
   "name": "freshhhh",
+  "description": "Relax and focus on work through ambient nature sounds",
   "version": "0.1.0",
+  "keywords": [
+    "relax",
+    "focus",
+    "relaxing music",
+    "react"
+  ],
+  "author": {
+    "name": "Mohammad Naeem",
+    "url": "https://github.com/i-naeem"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
