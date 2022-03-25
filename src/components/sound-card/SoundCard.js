@@ -7,7 +7,7 @@ const SoundCard = (props) => {
 
   const Icon = icons[title];
 
-  const { ref, toggle, playing } = useAudio();
+  const { ref, toggle, playing, setVolume } = useAudio();
   return (
     <section
       onClick={toggle}
@@ -23,6 +23,12 @@ const SoundCard = (props) => {
       <audio loop ref={ref}>
         <source src={url} />
       </audio>
+
+      {playing ? (
+        <div className={styles.control}>
+          <input type="range" onChange={(e) => setVolume(e.target.value)} />
+        </div>
+      ) : null}
     </section>
   );
 };

@@ -43,11 +43,22 @@
 }
 
 .icon {
-  width: 80%;
-  opacity: 0.7;
+  width: 60%;
   transition: opacity 150ms ease-in-out;
+}
+
+.card:not(.card.active) .icon {
+  opacity: 0.7;
 }
 
 .card:hover .icon {
   opacity: 1;
+}
+
+.control {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
