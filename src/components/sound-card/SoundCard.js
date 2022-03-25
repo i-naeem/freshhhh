@@ -26,7 +26,11 @@ const SoundCard = (props) => {
 
       {playing ? (
         <div className={styles.control}>
-          <input type="range" onChange={(e) => setVolume(e.target.value)} />
+          <input
+            onClick={(event) => event.stopPropagation()}
+            type="range"
+            onChange={(e) => setVolume(e.target.value)}
+          />
         </div>
       ) : null}
     </section>
