@@ -9,8 +9,8 @@ const App = (props) => {
     <AppLayout>
       <section className="main-content">
         {sounds.map((sound) => (
-          <div className="card-wrapper">
-            <SoundCard title={sound.title} url={sound.url} key={sound.title} />
+          <div key={sound.title} className="card-wrapper">
+            <SoundCard title={sound.title} url={sound.url} />
           </div>
         ))}
       </section>
