@@ -1,0 +1,15 @@
+.header {
+  background-color: aliceblue;
+  padding: 0 2rem;
+  box-shadow: 0 0 1px 0 #333;
+}
+
+.brand {
+  text-decoration: none;
+  color: rgba(25, 25, 26, 0.9);
+  transition: color 150ms ease-in-out;
+}
+
+.brand:hover {
+  color: rgb(25, 25, 25);
+}
