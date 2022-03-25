@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Ignore sounds file for the moment, as they would take alot of time to upload on github.
+src/sounds
